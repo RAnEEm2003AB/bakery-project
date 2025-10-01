@@ -22,6 +22,7 @@ ul{
 :root{
 --beige:#f4eede;
 --green:#79cba8;
+--orange:#f5a64a;
 }
 .bold-grey{
     color:#212121
@@ -30,13 +31,13 @@ ul{
     color: #696969;
 }
 .orange{
-    color:#f5a64a;
+    color:var(--orange);
 }
 .dark-grey{
     color:#ababab;
 }
 .green{
-    color:#79cba8;
+    color:var(--green);
 }
 .beige{
     color:#f4eede;

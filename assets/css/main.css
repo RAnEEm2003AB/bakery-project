@@ -38,6 +38,9 @@ border:solid 0.5px var(--beige);
 .top-section .left a:hover{
     color: var(--green);
 }
+.navbar .bottom-sec{
+  margin-left: 110px;
+}
 .navbar .bottom-sec a{
   
   font-weight: 400;
@@ -64,3 +67,57 @@ border:solid 0.5px var(--beige);
   transform: translateX(10px);    
 }
 
+
+
+/*Hero-section*/
+.hero{
+  height:100vh ;
+  background-image: url("../img/hero/banner-8.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  
+}
+ .hero .title{
+margin-top: 100px;
+flex-grow: 1;
+flex-basis: 320px;
+
+
+ }
+ .hero .title img{
+width: 130px;
+ }
+ .hero .bread-img img{
+     width: 100%;
+ }
+ .hero .bread-img {
+  
+  flex-grow: 1;
+  flex-basis: 320px;
+ align-self: flex-end;
+ }
+
+ .hero .btn{
+  border-radius: 0;
+  padding: 7px 40px !important;
+  font-weight: 500;
+ }
+ .hero .btn:hover{
+  background-color: var(--orange)!important;
+  border: none;
+ }
+ @media screen and (max-width:1000px){
+  .hero .title{
+    gap:10px !important;
+  }
+  
+ }
+  @media screen and (max-width:744px){
+  .hero .bread-img{
+    display: none;
+
+  }
+  
+ }
