@@ -39,7 +39,7 @@ border:solid 0.5px var(--beige);
     color: var(--green);
 }
 .navbar .bottom-sec a{
-  font-size: 18px;
+  
   font-weight: 400;
   transition: .5s;
 }
@@ -52,5 +52,15 @@ border:solid 0.5px var(--beige);
 }
 .navbar .top-section .bars i:hover{
   color: var(--green);
+}
+.btn{
+  padding: 0 !important;
+}
+.hover-move-right {
+  display: inline-block;          
+  transition: transform 0.3s ease; }
+
+.hover-move-right:hover {
+  transform: translateX(10px);    
 }
 

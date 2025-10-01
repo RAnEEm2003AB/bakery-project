@@ -23,6 +23,9 @@ ul{
 --beige:#f4eede;
 --green:#79cba8;
 }
+.bold-grey{
+    color:#212121
+}
 .grey{
     color: #696969;
 }
