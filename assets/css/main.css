@@ -1,0 +1,56 @@
+
+/*header-section*/
+.navbar{
+    padding: 20px 0;
+}
+.navbar .top-section li{
+padding: 2px 20px;
+}
+.bars .input-group input{
+border:none;
+}
+.bars .input-group .box{
+border:solid 0.5px var(--beige);
+}
+.bars .input-group i{
+    padding: 0 10px 0 0;
+}
+.bars .lista li a:hover{
+    color: var(--green);
+}
+.top-section .left{
+    display: block;
+}
+
+.top-section button{
+  border: none;
+  background: none;
+}
+.top-section .left li{
+  transition: .5s;
+}
+.top-section .left li:hover{
+    color: var(--green);
+}
+.top-section .left a{
+  transition: .5s;
+}
+.top-section .left a:hover{
+    color: var(--green);
+}
+.navbar .bottom-sec a{
+  font-size: 18px;
+  font-weight: 400;
+  transition: .5s;
+}
+.navbar .bottom-sec a:hover{
+  color: var(--green);
+}
+.navbar .top-section .bars i{
+  font-size: larger;
+  transition: .5s;
+}
+.navbar .top-section .bars i:hover{
+  color: var(--green);
+}
+
