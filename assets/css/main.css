@@ -119,5 +119,47 @@ width: 130px;
     display: none;
 
   }
-  
  }
+
+
+
+ /*Menue-section*/
+ .menue{
+  padding: 80px 0;
+   overflow-x: hidden;
+ }
+ .men-discribtion h2{
+  font-weight:800;
+  font-size: 35px;
+ }
+
+ .menue-img{
+  background-image:url(../img/menue/today_menu.webp) ;
+  background-size: 120% 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+ }
+ .menue-img .div{
+  background-image: url(../img/menue/bread.webp);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 80%;
+  height: 90%;
+  filter: brightness(0.6);
+  position: absolute;
+ }
+ .menue-img .meals .dots{
+  flex: 1;
+  border-bottom: 1px dotted #fff; 
+  margin: 0 10px;
+ }
+ .menue-img .meals{
+  position: relative;
+  z-index: 2;
+ }
+.meals .product .price{
+  font-size: 18px;
+
+}
