@@ -23,18 +23,20 @@ ul{
 --beige:#f4eede;
 --green:#79cba8;
 --orange:#f5a64a;
+--grey:#696969;
+--dark-grey:#ababab;
 }
 .bold-grey{
     color:#212121
 }
 .grey{
-    color: #696969;
+    color: var(--grey);
 }
 .orange{
     color:var(--orange);
 }
 .dark-grey{
-    color:#ababab;
+    color:var(--dark-grey);
 }
 .green{
     color:var(--green);
