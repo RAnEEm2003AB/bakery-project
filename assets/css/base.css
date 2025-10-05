@@ -59,6 +59,9 @@ ul{
 .black{
     color: #121212;
 }
+.white{
+    color:#fff;
+}
 /*container*/
 .my-container{
 width:calc(100% - 100px);
