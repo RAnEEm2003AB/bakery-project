@@ -103,8 +103,9 @@ width: 130px;
   border-radius: 0;
   padding: 7px 40px !important;
   font-weight: 500;
+  transition: .5s;
  }
- .hero .btn:hover{
+.hero .btn:hover{
   background-color: var(--orange)!important;
   border: none;
  }
@@ -172,9 +173,8 @@ width: 130px;
   max-width: 1000px;
   border-radius: 10px ;
   padding: 40px;
-   border: 2px dotted var(--dark-grey);
+   border: 2px dotted var(--dark-grey);}
 
- }
 
 .meals .product .price{
   font-size: 18px;
@@ -202,17 +202,96 @@ width: 130px;
   background-size: cover ;
   background-repeat: no-repeat;
   background-position: center center; 
+  background-attachment:fixed;
  
  }
 
 .our-services .service .card{
-  padding: 40px 30px 50px 30px;
+  padding: 40px 20px 40px 20px;
   gap:50px;
   background-color: #f4eede;
-    border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-radius: 0 0 50% 50%;
+    clip-path: polygon(
+    20px 0, calc(100% - 20px) 0,
+    100% 20px, 100% calc(100% - 20px),
+    calc(100% - 20px) 100%, 20px 100%,
+    0 calc(100% - 20px), 0 20px
+  );
 }
 .our-services .service .card h5{
   font-size: 25px;
 }
+.our-services .service .card:hover{
+background: none;
+border:2px solid var(--grey);
+color: #fff;
+}
+.our-services .service .card:hover h5{
+  color: #fff;
+}
+.our-services .service .card:hover img{
+ filter: brightness(3);
+}
+.our-services .service .card:hover p{
+  color: #fff;
+}
+
+
+
+/*Selection-Boxes*/
+.Selection-Boxes{
+  padding: 80px 0;
+}
+.Selection-Boxes .right{
+  background-image:url(../img/Boxes/simple-product.webp)  ;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  width: 60%;
+  height: 100%;
+  padding: 90px 50px 0 200px;
+ 
+}
+
+ .Selection-Boxes .baking {
+    width: 100%;
+ }
+ .Selection-Boxes .left {
+  
+ flex-grow: 1;
+ flex-basis: 320px;
+ align-self: flex-end;
+ z-index: 2;
+ margin-bottom: -120px;
+ margin-right: -190px;
+ display: block;
+ 
+ 
+
+ }
+ .Selection-Boxes .btn{
+  border-radius: 0;
+  padding: 7px 20px !important;
+  font-weight: 500;
+  transition: .5s;
+ }
+.Selection-Boxes .btn:hover{
+  background-color: var(--green)!important;
+  border: none;
+ }
+ .Selection-Boxes .content{
+  gap: 10px;
+ }
+ .bord-er{
+ border-bottom: 1px solid rgba(255,255,255,0.6);
+  width: 20%;
+  margin-bottom: 10px;
+ }
+ @media screen and ( max-width:990px ){
+.Selection-Boxes .left{
+  display: none;
+}
+  .Selection-Boxes .right{
+    width: 100%;
+    padding: 50px;
+  }
+ }
