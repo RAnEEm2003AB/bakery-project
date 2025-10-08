@@ -72,3 +72,6 @@ margin: auto;
     text-align: center;
     
 }
+main {
+  flex: 1; /* يخلي الـ main ياخذ كل المساحة المتبقية بين الهيدر والفوتر */
+}
