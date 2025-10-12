@@ -1,0 +1,127 @@
+/*header-section*/
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar .top-section li {
+  padding: 2px 20px;
+}
+
+
+.top-section button {
+  border: none;
+  background: none;
+}
+.navbar .list {
+  margin-left: 110px;
+}
+
+.navbar .list a {
+
+  font-weight: 400;
+  transition: .5s;
+}
+
+.navbar .list a:hover {
+  color: var(--green);
+}
+.bars .input-group input {
+  border: none;
+}
+
+.bars .input-group .box {
+  border: solid 0.5px var(--beige);
+}
+
+.bars .input-group i {
+  padding: 0 10px 0 0;
+}
+
+.bars .lista li a:hover {
+  color: var(--green);
+}
+.top-section .left li {
+  transition: .5s;
+}
+
+.top-section .left li:hover {
+  color: var(--green);
+}
+
+.top-section .left a {
+  transition: .5s;
+}
+
+.top-section .left a:hover {
+  color: var(--green);
+}
+
+.btn {
+  padding: 0 !important;
+}
+
+.hover-move-right {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.hover-move-right:hover {
+  transform: translateX(10px);
+}
+
+
+/*hero-section*/
+.hero{
+    background-image: url(../img/hero-boxes/header-box.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.hero::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: brightness(0.6);
+  z-index: 1;
+}
+.hero .title{
+    padding: 90px 90px 120px 90px;
+    z-index: 2;
+    position: relative;
+}
+
+
+/*form-section*/
+.form{
+    padding: 90px 0;
+}
+.form .button .btn{
+    background-color: var(--green);
+    padding: 6px 30px !important;
+    border-radius: 0;
+    align-self: flex-start;
+    transition: .5s;
+}
+.form .button .btn:hover{
+    background-color: black;
+}
+
+.form .content{
+    border: 2px dotted var(--beige);
+    min-height: 360px;
+}
+.form .content input{
+    border: 1px solid var(--beige);
+    border-radius: 0;
+}
+.form .button a{
+    transition: .5s;
+}
+.form .button a:hover{
+    color: var(--green);
+}

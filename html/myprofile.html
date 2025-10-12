@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <!--font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!--Bages-->
+    <link rel="stylesheet" href="../html/Boxes.html">
+    <link rel="stylesheet" href="../html/contact.html">
+    <link rel="stylesheet" href="../html/cart.html">
+    <link rel="stylesheet" href="../html/myprofile.html">
+    <link rel="stylesheet" href="../html/shop.html">
+    <!--LINKS-->
+    <link rel="stylesheet" href="../assets/css/my-profile.css">
+    <link rel="stylesheet" href="../assets/css/base.css" />
+</head>
+
+<body>
+    <hrader class="navbar">
+        <div class="my-container">
+            <div class="row">
+                <div
+                    class="top-section d-flex justify-content-xl-between align-items-center justify-content-evenly gap-5">
+                    <div class="right">
+                        <a href="index.html"><img src="../assets/img/logo (1).webp" alt="logo"></a>
+                    </div>
+                    <div class="left d-flex gap-3 align-items-center grey">
+                        <button><i class="fa-solid fa-magnifying-glass me-1 d-flex d-lg-none"></i></button>
+                        <div class="bars d-flex d-lg-none">
+                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                            <i class="fa-solid fa-bars black" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body d-flex flex-column gap-4">
+                                    <div class="input-group mb-3">
+
+                                        <div class="box input-group mb-3 align-items-center">
+                                            <input type="text" class="form-control dark-grey"
+                                                placeholder="Enter Keyword To Search..."
+                                                aria-label="Recipient’s username" aria-describedby="basic-addon2">
+                                            <i class=" fa-solid fa-magnifying-glass dark-grey " id="basic-addon2"></i>
+                                        </div>
+
+                                    </div>
+                                    <div class="lista">
+                                        <ul class="d-flex flex-column gap-3 align-items-start">
+                                            <li><a class="bold-grey" href="../index.html">Home</a></li>
+                                            <li><a class="bold-grey" href="#">Header</a></li>
+                                            <li><a class="bold-grey" href="#">Our Story</a></li>
+                                            <li><a class="bold-grey" href="./shop.html">Shop</a></li>
+                                            <li><a class="bold-grey" href="./Boxes.html"> Boxes</a></li>
+                                            <li><a class="bold-grey" href="#">Blog</a></li>
+                                            <li><a class="bold-grey" href="./contact.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="list d-none  align-items-center grey d-lg-flex">
+                            <ul class="d-flex gap-0 list-unstyled m-0 text-uppercase">
+                                <li><a class="bold-grey" href="../index.html">Home</a></li>
+                                <li><a class="bold-grey" href="#">Header</a></li>
+                                <li><a class="bold-grey" href="#">Our Story</a></li>
+                                <li><a class="bold-grey" href="./shop.html">Shop</a></li>
+                                <li class="dropdown ">
+                                    <a class="bold-grey btn dropdown-toggle border-0" data-bs-toggle="dropdown"
+                                        aria-expanded="false" href="./Boxes.html"> Boxes</a>
+                                    <ul class="dropdown-menu border-0 bg-white">
+                                        <li><a class="dropdown-item grey hover-move-right text-capitalize " href="#">Box
+                                                Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="bold-grey" href="#">Blog</a></li>
+                                <li><a class="bold-grey" href="./contact.html">Contact</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </hrader>
+    <main>
+        <section class="hero">
+            <div class="title d-flex flex-column gap-4 align-items-center justify-content-center">
+                <h1 class=" sec-font text-light f-size-70">My account</h1>
+                <p class="text-uppercase text-light">Organici/My Account</p>
+            </div>
+        </section>
+        <section class="form">
+            <div class="container">
+                <div class="row gap-3 gap-md-0">
+                    <div class="login col-md-6 d-flex flex-column gap-4 ">
+                        <div class="title d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-right-to-bracket f-size-20 green"></i>
+                            <h2 class="sec-font">Login</h2>
+                        </div>
+                        <div class="content p-4 d-flex flex-column gap-4">
+                            <div class="mb-3 email d-flex flex-column gap-2 text-uppercase">
+                                <label for="exampleFormControlInput1" class="form-label">Username or email address <span
+                                        class="text-danger fw-bolder">*</span></label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="pass d-flex flex-column gap-2 text-uppercase">
+                                <label for="inputPassword5" class="form-label">Password<span
+                                        class="text-danger fw-bolder">*</span></label>
+                                <input type="password" id="inputPassword5" class="form-control"
+                                    aria-describedby="passwordHelpBlock" />
+                            </div>
+                            <div class="button d-flex flex-column gap-3 mt-4">
+                                <button type="button" class="btn f-size-20 text-light text-uppercase">login</button>
+                                <a class="text-uppercase forget-pass black" href="#">Lost your password?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Register col-md-6 d-flex flex-column gap-4">
+                        <div class="title d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-right-to-bracket f-size-20 green"></i>
+                            <h2 class="sec-font">Register</h2>
+                        </div>
+                        <div class="content p-4 d-flex flex-column gap-4">
+                            <div class="mb-3 email d-flex flex-column gap-2 text-uppercase">
+                                <label for="exampleFormControlInput1" class="form-label">Email address <span
+                                        class="text-danger fw-bolder">*</span></label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="pass d-flex flex-column gap-2 text-uppercase">
+                                <label for="inputPassword5" class="form-label">Password<span
+                                        class="text-danger fw-bolder">*</span></label>
+                                <input type="password" id="inputPassword5" class="form-control"
+                                    aria-describedby="passwordHelpBlock" />
+                            </div>
+                            <div class="button d-flex flex-column gap-3 mt-4">
+                                <button type="button" class="btn f-size-20 text-light text-uppercase">Register</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="top-sec">
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

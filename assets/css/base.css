@@ -1,4 +1,4 @@
-/*font*/
+/*font-family*/
 body {
   font-family: "Lato", sans-serif;
   color: #121212;
@@ -6,6 +6,18 @@ body {
 .sec-font {
   font-family: "Pacifico", cursive;
 }
+/*font-size*/
+.f-size-70{
+    font-size: 70px;
+}
+.f-size-20{
+    font-size: 20px;
+}
+.f-size-20{
+    font-size: 20px;
+}
+
+
 /*genrral*/
 body{
     margin: 0;
@@ -73,5 +85,5 @@ margin: auto;
     
 }
 main {
-  flex: 1; /* يخلي الـ main ياخذ كل المساحة المتبقية بين الهيدر والفوتر */
+  flex: 1;
 }

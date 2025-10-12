@@ -65,6 +65,7 @@
                         </ul>
                         <button><i class="fa-solid fa-magnifying-glass me-1 d-flex d-lg-none"></i></button>
                         <div class="bars d-block d-xl-block d-lg-none">
+                           
                             <i class="fa-solid fa-bars black" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
 
@@ -76,6 +77,7 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body d-flex flex-column gap-4">
+                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
                                     <div class="input-group mb-3">
 
                                         <div class="box input-group mb-3 align-items-center">
@@ -87,7 +89,7 @@
 
                                     </div>
                                     <div class="lista">
-                                        <ul class="d-flex flex-column gap-3 align-items-start">
+                                        <ul class="d-flex d-none d-xl-block flex-column gap-2 align-items-start">
                                             <li><a class="grey" href="#">Search</a></li>
                                             <li><a class="grey" href="#">About Us</a></li>
                                             <li><a class="grey" href="#">Tybo</a></li>
@@ -95,6 +97,17 @@
                                             <li><a class="grey" href="#">Wishlist</a></li>
                                             <li><a class="grey" href="#">FAQ</a></li>
                                             <li><a class="grey" href="#">Payment</a></li>
+                                        </ul>
+                                    </div>
+                                      <div class="lista">
+                                        <ul class="d-flex d-xl-none flex-column gap-3 align-items-start">
+                                            <li><a class="bold-grey" href="../index.html">Home</a></li>
+                                            <li><a class="bold-grey" href="#">Header</a></li>
+                                            <li><a class="bold-grey" href="#">Our Story</a></li>
+                                            <li><a class="bold-grey" href="./shop.html">Shop</a></li>
+                                            <li><a class="bold-grey" href="./Boxes.html"> Boxes</a></li>
+                                            <li><a class="bold-grey" href="#">Blog</a></li>
+                                            <li><a class="bold-grey" href="./contact.html">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -108,17 +121,17 @@
                             <li><a class="bold-grey" href="#">Home</a></li>
                             <li><a class="bold-grey" href="#">Header</a></li>
                             <li><a class="bold-grey" href="#">Our Story</a></li>
-                            <li><a class="bold-grey" href="#">Shop</a></li>
+                            <li><a class="bold-grey" href="./html/shop.html">Shop</a></li>
                             <li class="dropdown">
-                                <a class="bold-grey btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
-                                    href="#"> Boxes</a>
+                                <a class="bold-grey border-0  btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                    href="./html/Boxes.html"> Boxes</a>
                                 <ul class="dropdown-menu border border-0 bg-white">
                                     <li><a class="dropdown-item grey hover-move-right text-capitalize " href="#">Box
                                             Detail</a></li>
                                 </ul>
                             </li>
                             <li><a class="bold-grey" href="#">Blog</a></li>
-                            <li><a class="bold-grey" href="#">Contact</a></li>
+                            <li><a class="bold-grey" href="./html/contact.html">Contact</a></li>
 
 
                         </ul>
@@ -130,10 +143,10 @@
                             <li><a class="bold-grey " href="#">Home</a></li>
                             <li><a class="bold-grey" href="#">Header</a></li>
                             <li><a class="bold-grey" href="#">Our Story</a></li>
-                            <li><a class="bold-grey" href="#">Shop</a></li>
+                            <li><a class="bold-grey" href="./html/shop.html">Shop</a></li>
                             <li class="dropdown">
-                                <a class="bold-grey btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
-                                    href="#"> Boxes</a>
+                                <a class="bold-grey btn border-0  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                    href="./html/Boxes.html"> Boxes</a>
                                 <ul class="dropdown-menu border border-0 bg-white">
                                     <li><a class="dropdown-item grey hover-move-right text-capitalize" href="#">Box
                                             Detail</a></li>
@@ -143,7 +156,7 @@
 
 
 
-                            <li><a class="bold-grey" href="#">Contact</a></li>
+                            <li><a class="bold-grey" href="./html/contact.html">Contact</a></li>
                         </ul>
 
                     </div>
@@ -329,7 +342,7 @@
         <section class="our-services">
             <div class="container">
                 <div class="men-discribtion d-flex flex-column align-items-center t-align gap-4">
-                    <img src="../assets/img/services/icon_2.webp" alt="icon" />
+                    <img src="./assets/img/services/icon_2.webp" alt="icon" />
                     <h2 class="text-uppercase text-light">Our services</h2>
                     <h4 class="sec-font text-light ">Discount every Monday</h4>
                     <p class="text-light w-50">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
@@ -527,7 +540,7 @@
                     <a class="text-uppercase grey" href="#" >Discount</a>
                     <a class="text-uppercase grey" href="#"> New products</a>
                     <a class="text-uppercase grey" href="#">Top sellers</a>
-                    <a class="text-uppercase grey" href="#">Wish list</a>
+                    <a class="text-uppercase grey" href="#">Wishlist</a>
                     <a class="text-uppercase grey"href="#"> Special products</a>
                 </div>
                 <div class="right"></div>
