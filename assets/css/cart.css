@@ -1,0 +1,269 @@
+/*header-section*/
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar .top-section li {
+  padding: 2px 20px;
+}
+
+
+.top-section button {
+  border: none;
+  background: none;
+}
+.navbar .list {
+  margin-left: 110px;
+}
+
+.navbar .list a {
+
+  font-weight: 400;
+  transition: .5s;
+}
+
+.navbar .list a:hover {
+  color: var(--green);
+}
+.bars .input-group input {
+  border: none;
+}
+
+.bars .input-group .box {
+  border: solid 0.5px var(--beige);
+}
+
+.bars .input-group i {
+  padding: 0 10px 0 0;
+}
+
+.bars .lista li a:hover {
+  color: var(--green);
+}
+.top-section .left li {
+  transition: .5s;
+}
+
+.top-section .left li:hover {
+  color: var(--green);
+}
+
+.top-section .left a {
+  transition: .5s;
+}
+
+.top-section .left a:hover {
+  color: var(--green);
+}
+
+.btn {
+  padding: 0 !important;
+}
+
+.hover-move-right {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.hover-move-right:hover {
+  transform: translateX(10px);
+}
+
+
+/*hero-section*/
+.hero{
+    background-image: url(../img/hero-boxes/header-box.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.hero::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: brightness(0.6);
+  z-index: 1;
+}
+.hero .title{
+    padding: 90px 90px 120px 90px;
+    z-index: 2;
+    position: relative;
+}
+
+
+/*my-cart-section*/
+.my-cart{
+    padding: 80px 0;
+}
+.my-cart .table thead tr.head th {
+  background-color: var(--green) !important;
+  color: #fff !important;
+  padding: 20px;
+ 
+  
+}
+
+.my-cart .table tbody tr th{
+    padding: 60px  60px  60px 0  ;
+    transition: .5s;
+}
+.my-cart .table tbody tr td{
+           
+  vertical-align: middle ; 
+ 
+  
+}
+.table{
+    border-color: var(--beige);
+}
+.my-cart .table tbody tr .apple{
+    border:solid 1px var(--beige)
+}
+
+.my-cart .table tbody tr td .counter{
+    border-color: var(--beige);
+    width: 60px;
+    border-radius: 0;
+    
+}
+
+.my-cart th:first-child {
+  width: 400px;
+}
+@media (max-width: 768px) {
+  .hide {
+    display: none;
+  }
+  .my-cart .table tbody tr td{
+    padding: 40px 0    ;
+    
+}
+.my-cart .table tbody tr th a{
+    transition: .5s;
+}
+.my-cart .table th:first-child {
+  padding: 40px 0 ; 
+}
+}
+
+.my-cart .table tbody tr th a:hover{
+    color:var(--green)
+}
+.my-cart .remove{
+    background: none;
+    border:none;
+    transition: .5s;
+}
+.my-cart .remove:hover{
+    background-color: red;
+    color: white;
+}
+.my-cart .click1{
+    border:1px solid none;
+    border-radius: 0;
+    background-color: var(--beige);
+    padding: 5px 10px !important;
+    color:var(--green)
+}
+.my-cart .click1:hover{
+    color:white;
+    background-color: var(--green);
+}
+.my-cart .click2{
+    border:1px solid none;
+    border-radius: 0;
+    background-color: var(--green);
+    padding: 7px 15px !important;
+    color:#fff;
+}
+.my-cart .click2:hover{
+    color:white;
+    background-color: #3bb681;
+}
+
+
+/*info-section*/
+.info{
+    padding: 0 0 80px 0;
+}
+
+.info .click2{
+    border:1px solid none;
+    border-radius: 0;
+    background-color: var(--green);
+    padding: 7px 15px !important;
+    color:#fff;
+    align-self: flex-start;
+}
+.info .click2:hover{
+    color:white;
+    background-color: #3bb681;
+}
+.info .Register {
+    border:2px dotted var(--beige);
+    padding:35px 20px;
+}
+
+
+
+
+/*footer*/
+footer .top-section{
+  background-image: url(../img/footer-boxes/grapes2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  gap: 200px;
+}
+footer .top-section::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(121,203,168, 0.5);
+  z-index: 1;
+}
+footer .top-section .content{
+    padding: 50px;
+    z-index: 2;
+    position: relative;
+}
+footer .top-section .photo{
+  z-index: 3;
+  position: relative;
+  bottom: -80px;
+}
+footer .bottom-section{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+footer .bottom-section .social-media a{
+  border: 1px solid var(--grey);
+  padding: 5px;
+  transition: .5s;
+}
+footer .bottom-section .social-media a:hover{
+  color:#fff !important;
+  background-color: var(--green);
+  border: none;
+}
+footer .bottom-section .frame{
+  border:2px solid var(--grey);
+  padding: 10px;
+  border-radius: 5px;
+
+}
+footer .bottom-section span:hover{
+  color:var(--green);
+}
+footer .bottom-section .Email p:hover{
+  color:var(--green);
+}

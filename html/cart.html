@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!--font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!--Bages-->
+    <link rel="stylesheet" href="../html/Boxes.html">
+    <link rel="stylesheet" href="../html/contact.html">
+    <link rel="stylesheet" href="../html/cart.html">
+    <link rel="stylesheet" href="../html/myprofile.html">
+    <link rel="stylesheet" href="../html/shop.html">
+    <link rel="stylesheet" href="../html/shop-details.html">
+    <!--LINKS-->
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/base.css" />
+</head>
+
+<body>
+    <hrader class="navbar">
+        <div class="my-container">
+            <div class="row">
+                <div
+                    class="top-section d-flex justify-content-xl-between align-items-center justify-content-evenly gap-5">
+                    <div class="right">
+                        <a href="index.html"><img src="../assets/img/logo (1).webp" alt="logo"></a>
+                    </div>
+                    <div class="left d-flex gap-1 align-items-center justify-content-between grey">
+                        <button><i class="fa-solid fa-magnifying-glass me-1 d-flex d-lg-none"></i></button>
+                        <div class="bars d-flex d-lg-none">
+                            <i class="fa-solid fa-bars black" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="offcanvas-body d-flex flex-column gap-4">
+                                    <div class="input-group mb-3">
+
+                                        <div class="box input-group mb-3 align-items-center">
+                                            <input type="text" class="form-control dark-grey"
+                                                placeholder="Enter Keyword To Search..."
+                                                aria-label="Recipient’s username" aria-describedby="basic-addon2">
+                                            <i class=" fa-solid fa-magnifying-glass dark-grey " id="basic-addon2"></i>
+                                        </div>
+
+                                    </div>
+                                    <div class="lista">
+                                        <ul class="d-flex flex-column gap-3 align-items-start">
+                                            <li><a class="bold-grey" href="../index.html">Home</a></li>
+                                            <li><a class="bold-grey" href="#">Header</a></li>
+                                            <li><a class="bold-grey" href="#">Our Story</a></li>
+                                            <li><a class="bold-grey" href="./shop.html">Shop</a></li>
+                                            <li><a class="bold-grey" href="./Boxes.html"> Boxes</a></li>
+                                            <li><a class="bold-grey" href="#">Blog</a></li>
+                                            <li><a class="bold-grey" href="./contact.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="list d-none  align-items-center grey d-lg-flex">
+                            <ul class="d-flex gap-0 list-unstyled m-0 text-uppercase">
+                                <li><a class="bold-grey" href="../index.html">Home</a></li>
+                                <li><a class="bold-grey" href="#">Header</a></li>
+                                <li><a class="bold-grey" href="#">Our Story</a></li>
+                                <li><a class="bold-grey" href="./shop.html">Shop</a></li>
+                                <li class="dropdown ">
+                                    <a class="bold-grey btn dropdown-toggle border-0" data-bs-toggle="dropdown"
+                                        aria-expanded="false" href="./Boxes.html"> Boxes</a>
+                                    <ul class="dropdown-menu border-0 bg-white">
+                                        <li><a class="dropdown-item grey hover-move-right text-capitalize " href="#">Box
+                                                Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="bold-grey" href="#">Blog</a></li>
+                                <li><a class="bold-grey" href="./contact.html">Contact</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </hrader>
+    <main>
+        <section class="hero">
+            <div class="title d-flex flex-column gap-4 align-items-center justify-content-center">
+                <h1 class=" sec-font text-light f-size-70">Cart</h1>
+                <p class="text-uppercase text-light">Organici/cart</p>
+            </div>
+        </section>
+        <section class="my-cart">
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr class="head">
+                            <th scope="col" class=" sec-font f-size-20 fw-light">Image</th>
+                            <th scope="col" class=" sec-font f-size-20 fw-light">Price</th>
+                            <th scope="col" class=" sec-font f-size-20 fw-light hide">Quantity</th>
+                            <th scope="col" class=" sec-font f-size-20 fw-light">Total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <div class="d-flex gap-5 items align-items-center">
+                                    <a href="../html/shop-details.html" class="img d-none d-lg-block"> <img
+                                            src="../assets/img/my-cart/product_6.webp" alt="apple"
+                                            class="apple d-none d-lg-block" /></a>
+                                    <a class="f-size-10 text-uppercase black fw-medium"
+                                        href="../html/shop-details.html">APPLES</a>
+                                </div>
+                            </th>
+                            <td><span class="dark-grey">$3.95</span></td>
+                            <td class="hide"><input type="number" class="form-control counter" value="1" min="1"
+                                    max="10" /></td>
+                            <td><span> $3.95</span></td>
+                            <td><button class="btn remove red "><i class="fa-solid fa-xmark  "></i></button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="d-flex gap-5 items align-items-center">
+                                    <a href="../html/shop-details.html" class="img d-none d-lg-block"> <img
+                                            src="../assets/img/my-cart/product_3.webp" alt="apple" class="apple " /></a>
+                                    <a class="f-size-10 text-uppercase black fw-medium "
+                                        href="../html/shop-details.html">Brown Bread</a>
+                                </div>
+                            </th>
+                            <td><span class="dark-grey">$1.05</span></td>
+                            <td class="hide"><input type="number" class="form-control counter" value="1" min="1"
+                                    max="10" /></td>
+                            <td><span> $1.05</span></td>
+                            <td><button class="btn remove red "><i class="fa-solid fa-xmark  "></i></button></td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <a href="../html/shop.html"> <button class="btn text-uppercase click1 ">continue
+                                        shopping</button></a>
+                            </th>
+                            <td class="hide"></td>
+                            <td class="hide"></td>
+                            <td class="hide"></td>
+                            <td><button class="btn text-uppercase click2 ">update cart</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="Register col-md-6 d-flex flex-column gap-3">
+                        <h3 class="sec-font">Coupon</h3>
+                        <h4 class="dark-grey f-size-10">Enter your code if you have one</h4>
+                        <input type="email" class="form-control rounded-0 p-2" id="exampleFormControlInput1"
+                            placeholder="Coupon code">
+                        <button class="btn text-uppercase click2 ">upply coupon</button>
+
+
+                    </div>
+                    <div class="Cart-Totals  col-md-6 d-flex flex-column gap-3">
+                        <h3 class="sec-font">Cart Totals</h3>
+                        <table class="table">
+                            <tbody >
+                                <tr >
+                                    <th scope="row">Subtotal</th>
+                                    <td><span>$6.05</span></td>
+                                </tr>
+                                <tr >
+                                    <th scope="row">Shipping</th>
+                                    <td>Jacob</td>
+                                </tr>
+                                <tr >
+                                    <th scope="row" class=" text-uppercase">Total</th>
+                                    <td><span class="green fw-bold ">$6.05</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="top-section d-flex justify-content-center align-items-center">
+            <div class="content d-flex flex-column gap-3 align-items-center">
+                <h3 class="sec-font text-light f-size-30 ">- Every day fresh -</h3>
+                <h2 class="text-light text-uppercase f-size-50">organic food</h2>
+            </div>
+            <div class="photo d-none d-lg-block">
+                <img src="../assets/img/footer-boxes/organici-love-me.webp" alt="orange-fruit" />
+            </div>
+
+        </div>
+        <div class="bottom-section">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-6 col-lg-3 d-flex flex-column gap-3 mb-4">
+                        <a href="index.html"><img src="../assets/img/logo (1).webp" alt="logo"></a>
+                        <p class="dark-grey">Maecenas tristique gravida, odio et sagi ttis justo. Suspendisse ultricies
+                            nisi veafn. onec
+                            dictum non nulla ut lobortis tellus.</p>
+                        <div class="social-media d-flex gap-2 ">
+                            <a class="rounded-circle border-1 grey" href="#" target="_blank"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a class="rounded-circle border-1 grey" href="#" target="_blank"><i
+                                    class="fa-brands fa-google-plus-g"></i></a>
+                            <a class="rounded-circle border-1 grey" href="#" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a class="rounded-circle border-1 grey" href="#" target="_blank"><i
+                                    class="fa-brands fa-pinterest"></i></a>
+                            <a class="rounded-circle border-1 grey" href="#" target="_blank"><i
+                                    class="fa-brands fa-flickr"></i></a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class=" col-md-6 col-lg-3 d-flex flex-column gap-3 mb-4">
+                        <h5>CONTACT</h5>
+                        <div class="address d-flex flex-column gap-1">
+                            <h6>Address</h6>
+                            <p class="dark-grey">No 13, Sky Tower Street, New York, USA</p>
+                        </div>
+                        <div class="Hotline d-flex flex-column gap-1">
+                            <h6>Hotline</h6>
+                            <span class="dark-grey">(+844) 123 456 78</span>
+                            <span class="dark-grey">(+844) 888 97989</span>
+                        </div>
+                        <div class="Email d-flex flex-column gap-1">
+                            <h6>Email</h6>
+                            <p class="dark-grey">contact@organicistore.com</p>
+                        </div>
+
+                    </div>
+                    <div class=" col-md-6 col-lg-3 d-flex flex-column gap-3 mb-4">
+                        <h5>PHOTO IN FLICKER</h5>
+                    </div>
+                    <div class=" col-md-6 col-lg-3 d-flex flex-column gap-3 mb-5">
+                        <h5>WORKING TIME</h5>
+                        <div class="time d-flex flex-column gap-0">
+                            <div class="mon-fri d-flex">
+                                <h6 class="dark-grey">Monday to Friday:</h6>
+                                <h6> 08:00am - 08:00pm</h6>
+                            </div>
+                            <div class="sat-sun d-flex">
+                                <h6 class="dark-grey">Saturday & Sunday:</h6>
+                                <h6> 10:00am - 06:00pm</h6>
+                            </div>
+                        </div>
+                        <div class="frame d-flex flex-column align-items-center">
+                            <h6 class="green sec-font">Happy House</h6>
+                            <h6 class="dark-grey">Enjoy discount baked goods </h6>
+                            <h6>06:00am - 08:00pm daily</h6>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

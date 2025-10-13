@@ -19,7 +19,12 @@ body {
 .f-size-30{
     font-size: 30px;
 }
-
+.f-size-10{
+    font-size: 10px;
+}
+.f-size-5{
+    font-size: 5px;
+}
 
 /*genrral*/
 body{
