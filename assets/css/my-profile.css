@@ -125,3 +125,60 @@
 .form .button a:hover{
     color: var(--green);
 }
+
+
+/*footer*/
+footer .top-section{
+  background-image: url(../img/footer-boxes/grapes2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  gap: 200px;
+}
+footer .top-section::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(121,203,168, 0.5);
+  z-index: 1;
+}
+footer .top-section .content{
+    padding: 50px;
+    z-index: 2;
+    position: relative;
+}
+footer .top-section .photo{
+  z-index: 3;
+  position: relative;
+  bottom: -80px;
+}
+footer .bottom-section{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+footer .bottom-section .social-media a{
+  border: 1px solid var(--grey);
+  padding: 5px;
+  transition: .5s;
+}
+footer .bottom-section .social-media a:hover{
+  color:#fff !important;
+  background-color: var(--green);
+  border: none;
+}
+footer .bottom-section .frame{
+  border:2px solid var(--grey);
+  padding: 10px;
+  border-radius: 5px;
+
+}
+footer .bottom-section span:hover{
+  color:var(--green);
+}
+footer .bottom-section .Email p:hover{
+  color:var(--green);
+}
