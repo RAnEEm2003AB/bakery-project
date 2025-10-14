@@ -177,8 +177,8 @@
         </section>
         <section class="info">
             <div class="container">
-                <div class="row">
-                    <div class="Register col-md-6 d-flex flex-column gap-3">
+                <div class="row " style="gap: 80px;">
+                    <div class="Register col-md-5 d-flex flex-column gap-4">
                         <h3 class="sec-font">Coupon</h3>
                         <h4 class="dark-grey f-size-10">Enter your code if you have one</h4>
                         <input type="email" class="form-control rounded-0 p-2" id="exampleFormControlInput1"
@@ -187,24 +187,35 @@
 
 
                     </div>
-                    <div class="Cart-Totals  col-md-6 d-flex flex-column gap-3">
+                    <div class="Cart-Totals col-md-6  d-flex flex-column gap-3">
                         <h3 class="sec-font">Cart Totals</h3>
                         <table class="table">
+                            <thead>
+                                <tr>
+                                <th></th>
+                               
+                                <th></th></tr>
+                                
+                            </thead>
                             <tbody >
                                 <tr >
-                                    <th scope="row">Subtotal</th>
-                                    <td><span>$6.05</span></td>
+                                    <th scope="row" class="text-uppercase"><h6 class="dark-grey">Subtotal</h6></th>
+                                    
+                                    <td ><span class="dark-grey">$6.05</span></td>
                                 </tr>
                                 <tr >
-                                    <th scope="row">Shipping</th>
-                                    <td>Jacob</td>
+                                    <th scope="row" class="text-uppercase"><h6 class="dark-grey">Shipping</h6></th>
+                                    
+                                    <td><p class="dark-grey">Shipping costs will be calculated once you have provided your address.</p></td>
                                 </tr>
                                 <tr >
-                                    <th scope="row" class=" text-uppercase">Total</th>
+                                    <th scope="row" class=" text-uppercase"><h6 class="dark-grey">total</h6></th>
+                                    
                                     <td><span class="green fw-bold ">$6.05</span></td>
                                 </tr>
                             </tbody>
                         </table>
+                        <button class="btn text-uppercase click2 ">proceed to cheakout</button>
                     </div>
                 </div>
             </div>

@@ -168,7 +168,8 @@
     border-radius: 0;
     background-color: var(--beige);
     padding: 5px 10px !important;
-    color:var(--green)
+    color:var(--green);
+    transition: .5s;
 }
 .my-cart .click1:hover{
     color:white;
@@ -180,6 +181,7 @@
     background-color: var(--green);
     padding: 7px 15px !important;
     color:#fff;
+    transition: .5s;
 }
 .my-cart .click2:hover{
     color:white;
@@ -192,15 +194,16 @@
     padding: 0 0 80px 0;
 }
 
-.info .click2{
+.info .Register .click2{
     border:1px solid none;
     border-radius: 0;
     background-color: var(--green);
     padding: 7px 15px !important;
     color:#fff;
     align-self: flex-start;
+    transition: .5s;
 }
-.info .click2:hover{
+.info .Register .click2:hover{
     color:white;
     background-color: #3bb681;
 }
@@ -208,9 +211,31 @@
     border:2px dotted var(--beige);
     padding:35px 20px;
 }
-
-
-
+.info .Register input{
+  border-color: var(--beige);
+}
+.info .table tbody tr th{
+  padding: 10px;
+}
+.info .table tbody tr td{
+  padding: 10px 80px;
+}
+.info .Cart-Totals .click2{
+    border:1px solid none;
+    border-radius: 0;
+    background-color: var(--green);
+    padding: 7px 15px !important;
+    color:#fff;
+    transition: .5s;
+}
+.info .Cart-Totals .click2:hover{
+    color:white;
+    background-color: black;
+}
+.info .Cart-Totals {
+    border:2px dotted var(--beige);
+    padding:35px 20px;
+}
 
 /*footer*/
 footer .top-section{
