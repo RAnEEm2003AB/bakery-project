@@ -1,0 +1,236 @@
+/*header-section*/
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar .top-section li {
+  padding: 2px 20px;
+}
+
+
+.top-section button {
+  border: none;
+  background: none;
+}
+.navbar .list {
+  margin-left: 110px;
+}
+
+.navbar .list a {
+
+  font-weight: 400;
+  transition: .5s;
+}
+
+.navbar .list a:hover {
+  color: var(--green);
+}
+.bars .input-group input {
+  border: none;
+}
+
+.bars .input-group .box {
+  border: solid 0.5px var(--beige);
+}
+
+.bars .input-group i {
+  padding: 0 10px 0 0;
+}
+
+.bars .lista li a:hover {
+  color: var(--green);
+}
+.top-section .left li {
+  transition: .5s;
+}
+
+.top-section .left li:hover {
+  color: var(--green);
+}
+
+.top-section .left a {
+  transition: .5s;
+}
+
+.top-section .left a:hover {
+  color: var(--green);
+}
+
+.btn {
+  padding: 0 !important;
+}
+
+.hover-move-right {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.hover-move-right:hover {
+  transform: translateX(10px);
+}
+
+
+/*hero-section*/
+.hero{
+    background-image: url(../img/shop-details/header-center.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.hero::before{
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: brightness(0.6);
+  z-index: 1;
+}
+.hero .title{
+    padding: 90px 90px 120px 90px;
+    z-index: 2;
+    position: relative;
+}
+
+
+
+
+
+
+
+/*pro-details section*/
+
+.pro-details{
+    padding: 80px 0;
+}
+
+.pro-details .dots{
+    border-bottom: 1px solid var(--beige);
+}
+.pro-details strong {
+  
+  margin-right: 20px;
+}
+.pro-details .counter {
+  
+  width:60px;
+}
+.pro-details .click2{
+    background-color: #79cba8;
+    color:#fff;
+    padding: 10px 25px;
+    border-radius: 0;
+    border: none;
+    transition: .5s;
+}
+.pro-details .click2:hover{
+    color:white;
+    background-color: #3bb681;
+}
+.pro-details .detail input{
+    border-radius: 0;
+    border-color: var(--beige);
+}
+.pro-details .img{
+  border:1px solid var(--beige);
+  
+}
+.pro-details img{
+    width:500px;
+}
+.pro-details .info span{
+    transition: .5s;
+}
+.pro-details .info span:hover{
+   color: #79cba8;
+}
+.pro-details .share a{
+    transition: .5s;
+}
+.pro-details .share a:hover{
+   color: #79cba8;
+}
+.pro-details .tabs{
+   margin-top: 100px;
+   border-color: var(--beige) !important; 
+}
+.pro-details .tab-content{
+  padding: 10px;
+}
+.pro-details .nav-link{
+  background-color: var(--beige);
+}
+.pro-details .tabs .active{
+  background:none;
+}
+
+ .pro-details .left-side .input-group input {
+  border: none;
+}
+
+.pro-details .left-side .box {
+  border: 1px solid var(--beige);
+  padding: 3px;
+}
+
+.pro-details .left-side .Categories ul{
+    
+    padding-left: 0;
+    
+}
+.pro-details .left-side .Categories button{
+    border:none;
+    background: none;
+    color:var(--grey);
+    transition: .5s;
+    padding: 0;
+    margin-left: 0;
+}
+.pro-details .left-side .Categories button:hover{
+    color: var(--green);
+}
+.form-range::-webkit-slider-thumb {
+  background-color: #79cba8;
+}
+.form-range::-webkit-slider-runnable-track {
+  background-color: #79cba8;
+}
+.pro-details .left-side .filter button{
+background-color: var(--beige);
+border: none;
+padding: 6px 16px;
+transition: .5s;
+}
+.pro-details .left-side .filter button:hover{
+    color:#fff;
+    background-color: var(--green);
+}
+.pro-details .left-side .pop-product .product .card-title{
+    cursor: pointer;
+    transition:.5s
+}
+.pro-details .left-side .pop-product .product .card-title:hover{
+    color: var(--green);
+}
+.pro-details .pop-product img {
+  width: 60px ;
+ 
+}
+.pro-details .left-side .dots{
+    border-bottom:2px dotted var(--beige)
+}
+.pro-details .left-side .Product-Tags button{
+  border: 2px solid var(--beige);
+  background:none ;
+  color:var(--grey);
+  padding: 6px 15px;
+  transition: .5s;
+}
+.pro-details .left-side .Product-Tags button:hover{
+  background-color: var(--green);
+  color: white;
+  border: none;
+}

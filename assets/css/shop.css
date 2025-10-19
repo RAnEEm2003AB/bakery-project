@@ -169,11 +169,11 @@ padding: 10px;
     color:white;
     background-color: #3bb681;
 }
-.products .title{
+.products .card-title{
     transition: .5s;
     cursor: pointer;
 }
-.products .title:hover{
+.products .card-title:hover{
     color:var(--green);
 }
 
