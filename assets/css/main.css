@@ -158,7 +158,12 @@
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center center;
-
+  display:block
+}
+@media screen and (max-width: 981px) {
+  .menue {
+    background-image: none;
+  }
 }
 
 .men-discribtion h2 {

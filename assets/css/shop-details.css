@@ -221,6 +221,19 @@
 }
 .pro-details .related-product .card img{
   width:100%;}
+ .related-product .card img {
+  transition: 0.5s;
+}
+
+.related-product .card:hover img {
+  transform: scale(1.08); 
+}
+.related-product .card a{
+  overflow: hidden;
+}
+
+
+
 
 .pro-details .left-side .box {
   border: 1px solid var(--beige);
